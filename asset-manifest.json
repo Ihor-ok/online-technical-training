@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/online-technical-training/static/css/main.7acaea2f.css",
+    "main.js": "/online-technical-training/static/js/main.80d0ec60.js",
+    "index.html": "/online-technical-training/index.html",
+    "main.7acaea2f.css.map": "/online-technical-training/static/css/main.7acaea2f.css.map",
+    "main.80d0ec60.js.map": "/online-technical-training/static/js/main.80d0ec60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.80d0ec60.js"
+  ]
+}
