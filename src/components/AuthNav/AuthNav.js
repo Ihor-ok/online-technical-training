@@ -4,12 +4,16 @@ import Button from '@mui/material/Button';
 export const AuthNav = () => {
   return (
     <div>
-      <Button style={{ marginRight: 10 }} variant="contained"><NavLink  to="/register">
-        Register
-      </NavLink></Button>
-      <Button  variant="contained"><NavLink to="/login">
-        Log In
-      </NavLink></Button>
+      <NavLink  to="/register">
+        <Button  style={{ marginRight: 10 }} color="inherit" variant="contained">Register</Button>
+      </NavLink>
+      <NavLink to="/login"><Button color="inherit" variant="contained"> Log In</Button>
+      </NavLink>
+
+     
+       
+        
+      
 
     </div>
   );
