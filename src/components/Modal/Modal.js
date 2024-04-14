@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from '@mui/material/Modal';
 import ReactPlayer from 'react-player';
-import { ModalClose } from '@mui/joy';
+
 
 const VideoModal = ({ open, onClose, url }) => {
     console.log(open);
