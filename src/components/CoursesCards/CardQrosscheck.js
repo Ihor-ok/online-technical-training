@@ -14,7 +14,7 @@ export default function CardQrosscheck() {
 
   return (
     
-      <Card sx={{ position: 'relative', maxWidth: '365px', minHeight: '450px', alignSelf: 'flex-start', marginRight: 'auto', marginLeft: 4, marginTop: "10px", marginBottom: "10px", display: 'flex'}} >
+      <Card sx={{position: 'relative', maxWidth: '365px', minHeight: '450px', margin: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }} >
       <Link to={`/courses/qrosscheck`} style={{ textDecoration: 'none', color: 'inherit', flexGrow: 1 }}>
       <CardActionArea>
         <CardMedia
