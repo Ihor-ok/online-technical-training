@@ -21,6 +21,7 @@ import Qrosscheck from "./Qrosscheck/Qrosscheck";
 
 
 
+
 const HomePage = lazy(() => import('../pages/Home'));
 const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login'));
@@ -37,12 +38,12 @@ export const App = () => {
      
 
     return isRefreshing ? (
-      <div className={css.App}>
+      <div  className={css.App}>
          <b>Refreshing user...</b>
       </div>
      
   ) : (
-        <div className={css.App}>
+        <div  className={css.App}>
 
         
         <Routes>
