@@ -1,0 +1,13 @@
+.App {
+    background-color: rgb(210, 178, 241); 
+    /* height: 100vh; */
+    min-height: 100vh; 
+    height: auto;
+    max-width: 1200px; 
+     margin-left: auto; 
+     margin-right: auto; 
+     padding-left: 20px; 
+     padding-right: 20px; 
+    /* overflow: auto; */
+    
+}
