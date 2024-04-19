@@ -29,7 +29,7 @@ export default function Home() {
                     // Якщо ви використовуєте Material-UI, ви також можете використовувати theme для задання стилів
                 }}
             >
-                Training for aircraft maintenance personnel
+                Training for aircraft maintenance personnel basic principles
             </Typography>
 
             
