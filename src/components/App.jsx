@@ -17,6 +17,10 @@ import AviationLegislation from "./AviationLegislation/AviationLegislation";
 import ElectricalWiring from "./ElectricalWiring/ElectricalWiring";
 import BatteryMaintenance from "./BatteryMaintenance/BatteryMaintenance";
 import Qrosscheck from "./Qrosscheck/Qrosscheck";
+import ForCivilAerospaceCompanies from "./Training147/ForCivilAerospaceCompanies/ForCivilAerospaceCompanies";
+import EASAPart66 from "./Training147/EASAPart66/EASAPart66";
+import EWIS from "./Training147/EWIS/EWIS";
+import FuelTankSafety from "./Training147/FuelTankSafety/FuelTankSafety";
 
 
 
@@ -39,17 +43,23 @@ export const App = () => {
 
     return isRefreshing ? (
       <div  className={css.App}>
-         <b>Refreshing user...</b>
+         <b>Refreshing...</b>
       </div>
      
   ) : (
-        <div  className={css.App}>
+              <div className={css.App}>
+                   
 
-        
+        {/* <ForCivilAerospaceCompanies /> */}
         <Routes>
-          
+                    {/* <Route
+          path="/courses/training148/compliance-for-non-u-s-civil-aerospace-companies"
+          element={<ForCivilAerospaceCompanies />}
+          /> */}
+               
                 <Route path="/" element={<Layout />}>
                     <Route index element={<HomePage />} />
+                    
                     <Route
                     path="/register"
                     element={
@@ -69,11 +79,22 @@ export const App = () => {
                 }
                 />
                 <Route
-                path="/courses/training148"
-                element={
-                     <PrivateRoute redirectTo="/" component={<Training148 />} />
-                }
-                />
+                    path="/courses/training148"
+                    element={
+                    <PrivateRoute redirectTo="/" component={<Training148 />} />}>
+                           <Route
+                              path="compliance-for-non-u-s-civil-aerospace-companies"
+                              element={<ForCivilAerospaceCompanies />}/> 
+                           <Route
+                              path="ewis"
+                              element={<EWIS />}/>
+                           <Route
+                              path="easa-part-66"
+                              element={<EASAPart66 />} />
+                         <Route
+                              path="fuel-tank"
+                              element={<FuelTankSafety />}/>    
+                </Route>
                 <Route
                 path="/courses/maintenance_programs"
                 element={
@@ -110,10 +131,17 @@ export const App = () => {
                      <PrivateRoute redirectTo="/" component={<Qrosscheck />} />
                 }
                 />
+                    {/* <Route path="/courses/training148" element={<PrivateRoute redirectTo="/" component={<Training148 />} />}>
+                    <Route path="compliance-for-non-u-s-civil-aerospace-companies" element={<ForCivilAerospaceCompanies />} />
+                    </Route> */}
+                             {/* <Route path="/courses/training148" element={<Training148 />}>
+                              <Route path="/courses/training148/compliance-for-non-u-s-civil-aerospace-companies" element={<ForCivilAerospaceCompanies />} />
+                             </Route> */}
+                             
                 
                 </Route>
         </Routes>
-        
+        {/* <ForCivilAerospaceCompanies /> */}
       </div>
   )
 };
