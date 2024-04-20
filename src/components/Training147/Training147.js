@@ -26,15 +26,15 @@ export default function Training148() {
   const btnGoBackStyle = {
     marginLeft: '10px',
     marginTop:'10px',
-    backgroundColor: '#00FFFF',
-      color: '#333',
+    backgroundColor: '#FF4500',
+      color: '#FFFFFF',
       border: 'none',
       padding: '5px 10px',
       fontSize: '16px',
       cursor: 'pointer',
       borderRadius: '5px',
       transition: 'background-color 0.3s, color 0.3s',
-      ...(isHovered && { backgroundColor: '#00FA9A', color: '#000' }),
+      ...(isHovered && { backgroundColor: '	#006400', color: '#FFFFFF' }),
     };
 
   const topics = [
