@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/online-technical-training/static/css/main.4bba9e01.css",
-    "main.js": "/online-technical-training/static/js/main.8f17af1a.js",
-    "static/js/595.9bba692f.chunk.js": "/online-technical-training/static/js/595.9bba692f.chunk.js",
-    "static/js/139.2ddb7fad.chunk.js": "/online-technical-training/static/js/139.2ddb7fad.chunk.js",
-    "static/js/960.842d50ce.chunk.js": "/online-technical-training/static/js/960.842d50ce.chunk.js",
-    "static/js/836.6deac508.chunk.js": "/online-technical-training/static/js/836.6deac508.chunk.js",
+    "main.css": "/online-technical-training/static/css/main.b2b2a125.css",
+    "main.js": "/online-technical-training/static/js/main.bb60426e.js",
+    "static/js/595.ce784c0f.chunk.js": "/online-technical-training/static/js/595.ce784c0f.chunk.js",
+    "static/js/139.1d1efabc.chunk.js": "/online-technical-training/static/js/139.1d1efabc.chunk.js",
+    "static/js/960.130044bd.chunk.js": "/online-technical-training/static/js/960.130044bd.chunk.js",
+    "static/js/956.028ccf2b.chunk.js": "/online-technical-training/static/js/956.028ccf2b.chunk.js",
     "reactPlayerYouTube.js": "/online-technical-training/static/js/reactPlayerYouTube.c4d62ce5.chunk.js",
     "reactPlayerSoundCloud.js": "/online-technical-training/static/js/reactPlayerSoundCloud.447c6e2d.chunk.js",
     "reactPlayerVimeo.js": "/online-technical-training/static/js/reactPlayerVimeo.796dee88.chunk.js",
@@ -21,8 +21,8 @@
     "reactPlayerFilePlayer.js": "/online-technical-training/static/js/reactPlayerFilePlayer.84980a84.chunk.js",
     "reactPlayerPreview.js": "/online-technical-training/static/js/reactPlayerPreview.b7362069.chunk.js",
     "static/js/351.f682e520.chunk.js": "/online-technical-training/static/js/351.f682e520.chunk.js",
-    "static/js/510.e64a64cf.chunk.js": "/online-technical-training/static/js/510.e64a64cf.chunk.js",
-    "static/js/232.ef170365.chunk.js": "/online-technical-training/static/js/232.ef170365.chunk.js",
+    "static/js/510.c87f4d1b.chunk.js": "/online-technical-training/static/js/510.c87f4d1b.chunk.js",
+    "static/js/565.1b76dd4d.chunk.js": "/online-technical-training/static/js/565.1b76dd4d.chunk.js",
     "static/media/backgroundImageCourses.jpg": "/online-technical-training/static/media/backgroundImageCourses.4cdc890eed126bda9ee2.jpg",
     "static/media/147Training.jpg": "/online-technical-training/static/media/147Training.9032335cda16f9860708.jpg",
     "static/media/maintenancePrograms.jpg": "/online-technical-training/static/media/maintenancePrograms.f8491cfe11ba96a6126c.jpg",
@@ -33,12 +33,12 @@
     "static/media/ElectricalWiring.jpg": "/online-technical-training/static/media/ElectricalWiring.1adc67ddce3570c70490.jpg",
     "static/media/BatteryMaintenance.jpg": "/online-technical-training/static/media/BatteryMaintenance.5acdb56a9e7aaa4c2eb4.jpg",
     "index.html": "/online-technical-training/index.html",
-    "main.4bba9e01.css.map": "/online-technical-training/static/css/main.4bba9e01.css.map",
-    "main.8f17af1a.js.map": "/online-technical-training/static/js/main.8f17af1a.js.map",
-    "595.9bba692f.chunk.js.map": "/online-technical-training/static/js/595.9bba692f.chunk.js.map",
-    "139.2ddb7fad.chunk.js.map": "/online-technical-training/static/js/139.2ddb7fad.chunk.js.map",
-    "960.842d50ce.chunk.js.map": "/online-technical-training/static/js/960.842d50ce.chunk.js.map",
-    "836.6deac508.chunk.js.map": "/online-technical-training/static/js/836.6deac508.chunk.js.map",
+    "main.b2b2a125.css.map": "/online-technical-training/static/css/main.b2b2a125.css.map",
+    "main.bb60426e.js.map": "/online-technical-training/static/js/main.bb60426e.js.map",
+    "595.ce784c0f.chunk.js.map": "/online-technical-training/static/js/595.ce784c0f.chunk.js.map",
+    "139.1d1efabc.chunk.js.map": "/online-technical-training/static/js/139.1d1efabc.chunk.js.map",
+    "960.130044bd.chunk.js.map": "/online-technical-training/static/js/960.130044bd.chunk.js.map",
+    "956.028ccf2b.chunk.js.map": "/online-technical-training/static/js/956.028ccf2b.chunk.js.map",
     "reactPlayerYouTube.c4d62ce5.chunk.js.map": "/online-technical-training/static/js/reactPlayerYouTube.c4d62ce5.chunk.js.map",
     "reactPlayerSoundCloud.447c6e2d.chunk.js.map": "/online-technical-training/static/js/reactPlayerSoundCloud.447c6e2d.chunk.js.map",
     "reactPlayerVimeo.796dee88.chunk.js.map": "/online-technical-training/static/js/reactPlayerVimeo.796dee88.chunk.js.map",
@@ -54,11 +54,11 @@
     "reactPlayerFilePlayer.84980a84.chunk.js.map": "/online-technical-training/static/js/reactPlayerFilePlayer.84980a84.chunk.js.map",
     "reactPlayerPreview.b7362069.chunk.js.map": "/online-technical-training/static/js/reactPlayerPreview.b7362069.chunk.js.map",
     "351.f682e520.chunk.js.map": "/online-technical-training/static/js/351.f682e520.chunk.js.map",
-    "510.e64a64cf.chunk.js.map": "/online-technical-training/static/js/510.e64a64cf.chunk.js.map",
-    "232.ef170365.chunk.js.map": "/online-technical-training/static/js/232.ef170365.chunk.js.map"
+    "510.c87f4d1b.chunk.js.map": "/online-technical-training/static/js/510.c87f4d1b.chunk.js.map",
+    "565.1b76dd4d.chunk.js.map": "/online-technical-training/static/js/565.1b76dd4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bba9e01.css",
-    "static/js/main.8f17af1a.js"
+    "static/css/main.b2b2a125.css",
+    "static/js/main.bb60426e.js"
   ]
 }
