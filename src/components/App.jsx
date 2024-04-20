@@ -21,6 +21,10 @@ import ForCivilAerospaceCompanies from "./Training147/ForCivilAerospaceCompanies
 import EASAPart66 from "./Training147/EASAPart66/EASAPart66";
 import EWIS from "./Training147/EWIS/EWIS";
 import FuelTankSafety from "./Training147/FuelTankSafety/FuelTankSafety";
+import HumanFactorsPart66 from "./Training147/HumanFactorsPart66/HumanFactorsPart66";
+import HumanFactorsPart145 from "./Training147/HumanFactorsPart145/HumanFactorsPart145";
+import SafetyManagementSystem from "./Training147/SafetyManagementSystem/SafetyManagementSystem";
+import PartM from "./Training147/PartM/PartM";
 
 
 
@@ -93,7 +97,19 @@ export const App = () => {
                               element={<EASAPart66 />} />
                          <Route
                               path="fuel-tank"
-                              element={<FuelTankSafety />}/>    
+                              element={<FuelTankSafety />} />
+                         <Route
+                              path="human-factors-part-66"
+                              element={<HumanFactorsPart66 />}/>
+                         <Route
+                              path="human-factors-part-145"
+                              element={<HumanFactorsPart145 />}/>
+                         <Route
+                              path="safety-management-system"
+                              element={<SafetyManagementSystem />}/>
+                         <Route
+                              path="part-m"
+                              element={<PartM />}/>  
                 </Route>
                 <Route
                 path="/courses/maintenance_programs"
