@@ -10,6 +10,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useState } from "react";
 
 import css from './AppBar.module.css'
 
@@ -30,6 +31,12 @@ const theme = createTheme({
 export const ButtonAppBar = () => {
   const { isLoggedIn } = useAuth();
 
+  const [activeButton, setActiveButton] = useState('home');
+
+   const handleButtonClick = (buttonName) => {
+    setActiveButton(buttonName);
+  };
+
   return (
     
       <ThemeProvider theme={theme}>
@@ -39,9 +46,9 @@ export const ButtonAppBar = () => {
             <div className={css.AppBar}>
               <Toolbar>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                <Navigation />
+                <Navigation activeButton = {activeButton} handleButtonClick={handleButtonClick} />
               </Typography>
-              {isLoggedIn ? <UserMenu /> : <AuthNav />}
+              {isLoggedIn ? <UserMenu  handleButtonClick={handleButtonClick} /> : <AuthNav handleButtonClick={handleButtonClick}/>}
               </Toolbar>
           </div>
           </AppBar>
