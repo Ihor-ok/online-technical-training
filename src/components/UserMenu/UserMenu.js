@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 
 
-export const UserMenu = () => {
+export const UserMenu = (props) => {
   const dispatch = useDispatch();
   const { user } = useAuth();
 
@@ -23,9 +23,19 @@ export const UserMenu = () => {
     }}>
       <p >Welcome, <b>{user.name}</b>!</p>
       <Stack spacing={2} direction="row">
-        <Button variant="contained" onClick={() => {
+        <Button
+          variant="contained"
+          sx={{
+          backgroundColor: '#FF4500', // Зелений фон
+          color: 'white', // Білий колір тексту
+          '&:hover': {
+          backgroundColor: 'darkgreen', // Зелений фон при наведенні
+        },
+      }}
+          onClick={() => {
       
           dispatch(logOut())
+          props.handleButtonClick('home')
           }}>
           Logout
         </Button>
