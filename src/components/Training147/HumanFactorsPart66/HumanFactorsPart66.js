@@ -86,13 +86,14 @@ export default function HumanFactorsPart66() {
   return (
       <div className={css.container}>
 
-        <ul >
+        <ul className={css.videoList}>
             {courses.map(course => {
                 return (
-                    <li key={nanoid()}
+                    <li className={css.videoItem} key={nanoid()}
                         onClick={() => handleVideoClick(course.url)}>
                         
-                        <p>{course.name }</p> 
+                      <p>{course.name}</p>
+                      <button className={css.buttonView}>View</button>
                      </li>
                
             ) }) }

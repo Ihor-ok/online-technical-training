@@ -1,0 +1,53 @@
+.container {
+    /* display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; */
+    padding-left: 50px
+}
+
+.videoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.videoItem {
+    /* width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; */
+
+    display: flex;
+    align-items: center;
+    /* Вирівнюємо елементи по вертикалі */
+    width: 350px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.videoItem p {
+    flex-grow: 1;
+    /* Розтягуємо <p> на всю доступну ширину */
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+.buttonView {
+    align-self: flex-end;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 15px;
+}
+
+.buttonView:hover {
+    background-color: #0056b3;
+}
