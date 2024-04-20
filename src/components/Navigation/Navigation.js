@@ -6,27 +6,32 @@ import Button from '@mui/material/Button';
 
 
 
-export const Navigation = () => {
-const { isLoggedIn } = useAuth();
-  return (
-    <nav>
-    <Stack spacing={2} direction="row">
-        
+export const Navigation = (props) => {
+  
+  const { isLoggedIn } = useAuth();
+  
+  
+      return (
+      <nav>
+        <Stack spacing={2} direction="row">
           <NavLink to="/">
-            <Button variant="contained" >Home</Button>  
+              <Button
+                variant="contained"
+                sx={{ backgroundColor: props.activeButton === 'home' ? '#FF4500' : 'default' }}
+                onClick={() => props.handleButtonClick('home')}
+              >Home</Button>
           </NavLink>
+          {isLoggedIn && (
+              <NavLink to="/courses">
+                <Button
+                  variant="contained"
+                  sx={{ backgroundColor: props.activeButton === 'courses' ? '#FF4500' : 'default' }}
+                  onClick={() => props.handleButtonClick('courses')} 
+                >Courses</Button>
+              </NavLink>
+            )} 
+        </Stack>
 
-        {isLoggedIn && (
-            <NavLink to="/courses">
-              <Button variant="contained" >Courses</Button>
-            </NavLink>
-        )}
-    </Stack>
-
-     
-            
-
-
-    </nav>
-  );
-};
+      </nav>
+    );
+  };
