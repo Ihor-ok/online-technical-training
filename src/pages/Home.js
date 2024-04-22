@@ -262,7 +262,8 @@ const Home = () => {
           justifyContent: 'center',
         //   alignItems: 'center',
           minHeight: '100vh',
-          backgroundImage: `url(${backgroundImage1})`,
+      // backgroundImage: `url(${backgroundImage1})`,
+          backgroundColor: '#E0FFFF',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           paddingTop: "1px",
@@ -277,7 +278,7 @@ const Home = () => {
                     marginTop: '50px', // додаємо верхній відступ для центрування по вертикалі
                     marginBottom: '30px',
                     marginLeft: '30px',// додаємо нижній відступ
-                    color: '#fff', // кольор тексту
+                    color: '#2F4F4F', // кольор тексту
                     // Якщо ви використовуєте Material-UI, ви також можете використовувати theme для задання стилів
                 }}
             >
