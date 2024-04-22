@@ -11,12 +11,30 @@ import CoursesCards from "components/CoursesCards/CoursesCards";
 
 
 export default function Courses() {
+ 
+ const containerVariants = {
+  hidden: { opacity: 0, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.5, ease: "easeInOut" }
+  }
+};
+ 
   return (
-    <div >
+    <div style={{
+      backgroundColor: '#E0FFFF',
+      
+      // backgroundImage: `url(${backgroundImage2})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+      }}>
         <motion.div
-      initial={{ opacity: 0, scale: 0.5 }} // Початкові стилі анімації
-      animate={{ opacity: 1, scale: 1 }} // Стилі під час анімації
-      transition={{ duration: 0.5 }} // Тривалість анімації
+      // initial={{ opacity: 0, scale: 0.5 }} 
+      // animate={{ opacity: 1, scale: 1 }} 
+      // transition={{ duration: 0.5 }} 
+      
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
       >
         <CoursesCards></CoursesCards>
       </motion.div>
