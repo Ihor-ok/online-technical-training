@@ -2,6 +2,7 @@ import VideoModal from 'components/Modal/Modal';
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid'
 import css from './ForCivilAerospaceCompanies.module.css'
+import { Typography } from '@mui/material';
 
 
 
@@ -39,6 +40,10 @@ export default function ForCivilAerospaceCompanies() {
 
  
   return (
+    <div>
+      <Typography style={{marginLeft: '15px', textAlign: 'center'}} sx={{ mt: 4, mb: 2 }} variant="h3" component="div">
+        Introduction to the U.S. Export Compliance for Non-U.S. Civil Aerospace Companies
+      </Typography>
       <div className={css.container}>
 
         <ul className={css.videoList}>
@@ -56,6 +61,8 @@ export default function ForCivilAerospaceCompanies() {
         </ul>
         {open && <VideoModal  open={open} url={videoUrl} onClose={handleCloseModal}></VideoModal>}
     </div>
+    </div>
+      
   );
 }
 
