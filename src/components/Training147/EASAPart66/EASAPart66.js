@@ -2,6 +2,7 @@ import VideoModal from 'components/Modal/Modal';
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid'
 import css from './EASAPart66.module.css'
+import { Typography } from '@mui/material';
 
 
 
@@ -52,8 +53,11 @@ export default function EASAPart66() {
 
  
   return (
+    <div>
+      <Typography style={{marginLeft: '15px', textAlign: 'center'}} sx={{ mt: 4, mb: 2 }} variant="h3" component="div">
+        EASA Part-66 Regulatory Training
+      </Typography>
       <div className={css.container}>
-
         <ul className={css.videoList}>
             {courses.map(course => {
                 return (
@@ -69,5 +73,8 @@ export default function EASAPart66() {
         </ul>
         {open && <VideoModal  open={open} url={videoUrl} onClose={handleCloseModal}></VideoModal>}
     </div>
+
+    </div>
+      
   );
 }
