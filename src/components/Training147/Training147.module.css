@@ -1,3 +1,11 @@
+.container {
+    background-color: #E0FFFF;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 .list {
     list-style-type: none;
         /* Видаляє маркери списку */
@@ -11,10 +19,3 @@
     /* Відступи для кожного елемента */
 }
 
-.container {
-    min-height: 100vh;
-    height: auto;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
