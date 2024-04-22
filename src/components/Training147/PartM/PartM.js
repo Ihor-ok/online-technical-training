@@ -2,6 +2,7 @@ import VideoModal from 'components/Modal/Modal';
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid'
 import css from './PartM.module.css'
+import { Typography } from '@mui/material';
 
 
 
@@ -47,6 +48,10 @@ export default function PartM() {
 
  
   return (
+    <div>
+      <Typography style={{marginLeft: '15px', textAlign: 'center'}} sx={{ mt: 4, mb: 2 }} variant="h3" component="div">
+        Transition from Part-M Subpart G to Part-CA(M)O
+      </Typography>
       <div className={css.container}>
 
         <ul className={css.videoList}>
@@ -64,5 +69,7 @@ export default function PartM() {
         </ul>
         {open && <VideoModal  open={open} url={videoUrl} onClose={handleCloseModal}></VideoModal>}
     </div>
+    </div>
+      
   );
 }
