@@ -62,11 +62,11 @@ export default function Training148() {
         </button>
       </Link>
 
-      <Typography style={{marginLeft: '15px'}} sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
+      <Typography style={{marginLeft: '15px', textAlign: 'center'}} sx={{ mt: 4, mb: 2 }} variant="h2" component="div">
         148training
       </Typography>
       
-      <Grid item xs={12} md={6}>
+      <Grid style={{ marginLeft: '200px' }} item xs={12} md={6}>
         <List>
           {topics.map(topic => {
         return(
