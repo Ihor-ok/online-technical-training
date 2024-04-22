@@ -1,13 +1,22 @@
 .container {
-    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     flex-wrap: wrap;
-    list-style-type: none; */
-    padding-left: 50px
+    max-width: 100%
 }
 
 .videoList {
     list-style-type: none;
     padding: 0;
+    display: grid;
+    /* Змінено display на grid */
+    grid-template-columns: repeat(2, 1fr);
+    /* Два стовпці, рівні за шириною */
+    gap: 20px;
+    /* Відступ між елементами */
+    justify-content: center;
+    align-items: center;
 }
 
 .videoItem {
@@ -25,6 +34,7 @@
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    background-color: #AFEEEE;
 }
 
 .videoItem p {
